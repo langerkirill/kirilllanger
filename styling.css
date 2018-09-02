@@ -209,7 +209,8 @@ a > div {
 
 .email-social{
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  text-align: center;
   flex-direction: row;
 }
 
@@ -234,4 +235,10 @@ a > p {
   text-align: center;
   color: teal;
 
+}
+
+.email-link-text{
+  font-size: 24px;
+  margin-top: 45px;
+  margin-left: 30px;
 }
