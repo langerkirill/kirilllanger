@@ -127,6 +127,14 @@ div.third_transbox {
   color:black;
 }
 
+.fa-google {
+    background: red;
+    color: white;
+    width: 75px;
+    height: 75px;
+    font-size: 20px;
+}
+
 .fa-facebook {
     background: #3B5998;
     color: white;
@@ -179,12 +187,6 @@ div.third_transbox {
   font-size: 50px;
 }
 
-i{
-  color:teal;
-  font-size:100px;
-  margin:20px;
-}
-
 .skills{
   display: flex;
   flex-wrap: wrap;
@@ -207,13 +209,6 @@ a > div {
   color: black;
 }
 
-.email-social{
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  flex-direction: row;
-}
-
 .email{
   width: 400px;
   display: flex;
@@ -221,13 +216,12 @@ a > div {
   justify-content: center;
 }
 
-.links{
-  width: 500px;
-}
-
-.email-img{
-  width: 80px;
-  height: 80px;
+.links {
+  margin: 0 auto;
+  max-width: 60%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 a > p {
